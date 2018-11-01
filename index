@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Help in Gambia</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Pontano+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+ 	<!-- Navigation -->
+	
+	
+<body class="home">
+		<a href="index.html"><h2 class="logo">Help in Gambia</h2></a>
+<header>
+	<div class="wrapper">
+
+    <nav>
+	 <a class="burger-nav"></a>
+    <ul>
+   	<li><a class="current" href="/">home</a></li>
+	 <li><a href="overons.html">over ons</a></li>
+    <li><a href="projecten.html">projecten</a></li>
+    <li><a href="doneer.html">doneer</a></li>
+    </ul>
+  </nav>
+	</div>
+	</header>
+	
+<br>
+
+
+
+	
+
+<!-- Start homepage content -->
+
+
+<!-- Start homepage content -->
+
+
+
+<section id="photos">
+  <div class="row"> 
+	  
+	     <div class="column">	
+  <a href="storycovericons.html" class="darken"><img src="images/waterputten.jpg" style="width:100%"><span>waterputten</span>
+	  <p class="portraitstitle"></p></a>
+   </div>  
+	  
+	  
+	    <div class="column">	
+  <a href="phonewallpapers.html" class="darken"><img src="images/scholen.jpg" style="width:100%"><span>scholen</span>
+	  <p class="graphicstitle"></p></a>
+    </div>
+	  
+	       <div class="column">	
+  <a href="desktopwallpapers.html" class="darken"><img src="images/medischehulp.jpg" style="width:100%"><span>medische hulp</span>
+	  <p class="portraitstitle"></p></a>
+   </div>
+	  
+	   <div class="column">	
+  <a href="giphy.html" class="darken"><img src="images/gedoneerdespullen.jpg" style="width:100%"><span>gedoneerde spullen</span>
+	  <p class="portraitstitle"></p></a>
+   </div>
+	  
+	        
+	  
+
+	  
+	  
+	   
+	  
+	
+
+   
+   
+
+   
+ 
+  
+	   
+ 
+
+	    
+	  
+  </div>
+</section>
+
+  
+
+	  
+
+	
+	    
+	  
+  </div>
+</section>
+
+
+
+	
+	
+	<!-- Footer -->
+	  <br>
+<a href="https://www.facebook.com/Help-in-Gambia-534643316740595/"><img src="images/facebook.png" alt="" class="ig"/></a>
+<a href="https://www.instagram.com/helpingambia/"><img src="images/instagram.png" alt="" class="ig"/></a>
+
+	<p class="rights"> All rights reserved Helma Schnyder</p>
+<br>
+<br>
+
+</body>
+
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="menu.js"></script>
+</html>
