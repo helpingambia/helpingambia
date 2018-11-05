@@ -51,18 +51,11 @@ body {
 	
 }
 
-  pink ffd4e0
-dark pink fcb4cb
 
-
-.logo {
-	text-align:center;
-	color:black;
-}
 
 nav ul {
   list-style: none;
-  text-align: center;
+  text-align: right;
   padding: 0; 
 }
 
@@ -91,7 +84,7 @@ nav .current {
 }
 
 .logo {
-	text-align:center;
+	text-align:left;
 	color:black;
 }
 
@@ -157,6 +150,37 @@ width:50%;
     display: table;
     clear: both;
 }
+
+
+
+#slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+#slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+}
+#slider figure img {
+	width: 33.333333333%;
+	height : 100%;
+	float: left;
+}
+
 
 /*Mobile*/
 @media screen and (max-width: 400px){
