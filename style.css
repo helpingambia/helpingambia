@@ -14,9 +14,19 @@ a {
     color: blue;
 }
 
+h3 {
+	font-family: futura-pt, sans-serif;
+	text-align:center;
+	padding:50px 50px 0px 50px;
+	letter-spacing:2px;
+	
+}
 
-
-
+p {
+	font-family: futura-pt, sans-serif;
+	padding:50px;
+		line-height:30px;
+}
 
 body {
     margin: 0;
@@ -117,6 +127,7 @@ float:right;
 #two { 
   overflow:hidden;
   min-height:500px;
+
 }
 
 #three {
@@ -349,5 +360,3 @@ min-height:300px;
 	
 	
 	
-
-
