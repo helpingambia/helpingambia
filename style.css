@@ -158,15 +158,20 @@ float:left;
 	 overflow:hidden;
 min-height:500px;
 }
-@media screen and (max-width: 400px) {
-   #one { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
-  }
+
+#eleven {
+		float:left; 
+  width:700px;	
 }
+
+#twelve {
+	 overflow:hidden;
+min-height:500px;
+}
+
+
+
+
 
 
 #slider {
@@ -271,8 +276,6 @@ img {
 
 
 
-
-
 /*Tablet View*/
 
 @media (min-width: 768px){
@@ -336,6 +339,8 @@ min-height:300px;
 }
 	
 	}
+	
+	
 
 /*Desktop View*/
 
@@ -344,4 +349,5 @@ min-height:300px;
 	
 	
 	
+
 
