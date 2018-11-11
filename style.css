@@ -271,11 +271,71 @@ img {
 
 
 
+
+
 /*Tablet View*/
 
 @media (min-width: 768px){
 	
+.wrapperr { 
+  overflow:hidden;
+}
+
+.wrapperr div {
+   max-height: 200px;
+ 
+}
+#one {
+  float:left; 
+  width:300px;
+
+}
+#two { 
+  overflow:hidden;
+  min-height:300px;
+}
+
+#three {
+float:left; 
+ width:300px;
+}
+
+#four {
+	 overflow:hidden;
+	min-height:300px;
+}
+
+#five {
+float:left; 
+ width:300px;	
+}
+
+#six {
+	 overflow:hidden;
+ min-height:300px;
+}
+
+#seven {
+	float:left; 
+  width:300px;	
+}
+
+#eight {
+	 overflow:hidden;
+  min-height:300px;
+}
+
+#nine {
+		float:left; 
+  width:300px;	
+}
+
+#ten {
+	 overflow:hidden;
+min-height:300px;
+}
 	
+	}
 
 /*Desktop View*/
 
