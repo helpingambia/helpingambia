@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@charset "UTF-8";
-/* CSS Document */
-
 /*Basic Shit*/
 
 * {
@@ -32,10 +29,10 @@ body {
 
 
 .logo img{
-	width:15%;
+	width:200px;
+	padding:10px;
 	position:absolute;
-	margin-top:15px;
-	margin-left:300px;
+	float:left;
 
 }
 
@@ -46,13 +43,12 @@ nav {
 
 ul {
 	padding:0;
-	margin-left:700px;
 	list-style: none;
 }
 
 
 li {
-	float:left;
+	float:right;
 }
 
 
@@ -60,8 +56,8 @@ li {
 nav a {
 	width:100px;
 	display:block;
+	float:right;
 	margin-top:30px;
-	padding: 20px 15px;
 	text-decoration:none;
 	color: white;
 	font-family: futura-pt, sans-serif;
@@ -77,6 +73,10 @@ nav a {
 a:hover{
 	color:lightgreen;
 }
+
+
+
+
 
 
 
