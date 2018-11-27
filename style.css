@@ -115,7 +115,7 @@ html, body {
 		display:block;
 		height: 40px;
 		width:50%;
-		background: url(images/burger.png) no-repeat 75% center;
+		background: url(images/burger.png) no-repeat 40% center;
 		padding:40px;
 		cursor:pointer;
 	}
@@ -127,7 +127,7 @@ html, body {
 	
 	header nav ul{
 		overflow:hidden;
-		background:pink;
+		background:purple;
 		width: 100%;
 		height:0;
 	}
