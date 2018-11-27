@@ -137,7 +137,7 @@ html, body {
 }
 
 .topnav-right a:hover {
-  background-color: black;
+  background-color: pink;
   color: lightgreen;
 }
 }
