@@ -113,6 +113,8 @@ html, body {
 @media screen and (max-width: 400px){ 
 	.topnav-right {
 
+
+  float: left;
   padding: 45px 10px;
 
   color: white;
