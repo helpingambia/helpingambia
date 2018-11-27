@@ -248,24 +248,35 @@ min-height:500px;
 
 
 
-
-
 /*Mobile*/
-@media screen and (max-width: 400px){
-	
-}
-	
-/*Tablet View*/
+@media screen and (max-width: 400px){ 
+	.topnav-right {
+  float: right;
+  padding: 45px 10px;
 
-@media (min-width: 768px){
-	
+  color: white;
+  background-color:black;
+  font-family: futura-pt, sans-serif;
+  text-transform: uppercase;
+  font-size:11px; 
+  letter-spacing:1px;
 }
-	
-/*Desktop View*/
 
-@media (min-width: 1024px){
-	
+.topnav-right a {
+
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  text-transform: uppercase;
+  font-size:11px; 
+  letter-spacing:1px;
 }
-	
+
+.topnav-right a:hover {
+  background-color: pink;
+  color: lightgreen;
+}
+}
 	
 	
