@@ -17,7 +17,7 @@
 }
 @media (min-width: 601px) and (max-width: 768px) {
  .home  {
-   background: url(tablet.jpg);
+   background: url(tablet.jpeg);
 			background-size: cover;
   }
 }
