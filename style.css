@@ -57,7 +57,14 @@ background-repeat:no-repeat;
 
 
 
+.contact {
 
+ background: url(contact.jpg);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
+}
 
 
 
