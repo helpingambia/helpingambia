@@ -12,6 +12,14 @@
  background-size: cover;
  background-repeat:no-repeat;
 }	
+		.projecten {
+
+ background: url(projecten-mobile.jpeg);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
+}
 	.contact {
 
  background: url(contact-mobile.jpeg);
@@ -33,6 +41,14 @@ background: url(overons-mobile.jpeg);
 background-size: cover;
 background-repeat:no-repeat;
 }	
+		.projecten {
+
+ background: url(projecten-mobile.jpeg);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
+}
 	.contact {
 
  background: url(contact-mobile.jpeg);
@@ -54,6 +70,14 @@ background-repeat:no-repeat;
 background: url(overons-mobile.jpeg);
 background-size: cover;
 background-repeat:no-repeat;
+}
+	.projecten {
+
+ background: url(projecten-mobile.jpeg);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
 }
 		.contact {
 
