@@ -5,7 +5,7 @@
 
 @media (max-width: 300px) {
   .home {
- background: url(mobile.jpeg);
+ background: url(mobile.jpg);
 			background-size: cover;
   }
 }
