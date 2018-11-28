@@ -115,7 +115,7 @@ html, body {
 		display:block;
 		height: 40px;
 		width:50%;
-		background: url(images/burger.png) no-repeat 98% right;
+		background: url(images/burger.png) no-repeat 50% right;
 		padding:40px;
 		cursor:pointer;
 	}
