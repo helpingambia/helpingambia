@@ -8,6 +8,18 @@
  background: url(mobile.jpeg);
 			background-size: cover;
   }
+	
+				.overons {
+
+ background: url(overons-mobile.jpeg);
+			background-size: cover;
+
+	background-repeat:no-repeat;
+
+
+}
+	
+	
 }
 
 @media (max-width: 300px) {
@@ -15,6 +27,18 @@
  background: url(mobile.jpg);
 			background-size: cover;
   }
+	
+				.overons {
+
+ background: url(=overons-mobile.jpeg);
+			background-size: cover;
+
+	background-repeat:no-repeat;
+
+
+}
+	
+	
 }
 @media (min-width: 301px) and (max-width: 600px) {
   .home  {
@@ -22,29 +46,46 @@
 			background-size: cover;
   }
 }
+
+
+
 @media (min-width: 601px) and (max-width: 768px) {
  .home  {
    background: url(tablet.jpeg);
 			background-size: cover;
   }
+				.overons {
+
+ background: url(overons-mobile.jpeg);
+			background-size: cover;
+
+	background-repeat:no-repeat;
+
+
 }
+}
+
+
+
 @media (min-width: 769px) {
   .home {
 	background: url(desktop.jpg);
 			background-size: cover;
   }
-}
-
-
-
-
-.overons {
+	
+	.overons {
  background: url(overons.JPG);
 			background-size: cover;
 	background-repeat:no-repeat;
 
 
 }
+}
+
+
+
+
+
 
 
 h1 {
