@@ -11,7 +11,7 @@
 }
 @media (min-width: 301px) and (max-width: 600px) {
   .home  {
- background: url(mobile.jpeg);
+ background: url(mobile.jpg);
 			background-size: cover;
   }
 }
