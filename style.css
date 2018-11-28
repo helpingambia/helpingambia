@@ -3,30 +3,70 @@
 
 
 
+@media (max-width: 100px) {
+  .home {
+ background: url(images/mobile.jpeg);
+			background-size: cover;
+  }
+}
+
 @media (max-width: 300px) {
   .home {
- background: url(mobile.jpg);
+ background: url(images/mobile.jpg);
 			background-size: cover;
   }
 }
 @media (min-width: 301px) and (max-width: 600px) {
   .home  {
- background: url(mobile.jpg);
+ background: url(images/mobile.jpg);
 			background-size: cover;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
  .home  {
-   background: url(tablet.jpeg);
+   background: url(images/tablet.jpeg);
 			background-size: cover;
   }
 }
 @media (min-width: 769px) {
   .home {
-	background: url(desktop.jpg);
+	background: url(images/desktop.jpg);
 			background-size: cover;
   }
 }
+
+
+
+
+.overons {
+ background: url(images/overons.JPG);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
+}
+
+
+h1 {
+	font-family: futura-pt, sans-serif;
+ 	text-align:center;
+ 	padding:50px 50px 0px 50px;
+ 	letter-spacing:2px;
+}
+
+p {
+	font-family: futura-pt, sans-serif;
+ 	padding:50px;
+ 		line-height:30px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -35,6 +75,9 @@
 			padding: 0;
 			height: 100%;
 		}	
+
+
+
 		
 		.menu {
 			height: 100%;
@@ -141,8 +184,7 @@
 
 
 
-
-
+	
 
 
 
