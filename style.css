@@ -5,32 +5,32 @@
 
 @media (max-width: 100px) {
   .home {
- background: url(images/mobile.jpeg);
+ background: url(mobile.jpeg);
 			background-size: cover;
   }
 }
 
 @media (max-width: 300px) {
   .home {
- background: url(images/mobile.jpg);
+ background: url(mobile.jpg);
 			background-size: cover;
   }
 }
 @media (min-width: 301px) and (max-width: 600px) {
   .home  {
- background: url(images/mobile.jpg);
+ background: url(mobile.jpg);
 			background-size: cover;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
  .home  {
-   background: url(images/tablet.jpeg);
+   background: url(tablet.jpeg);
 			background-size: cover;
   }
 }
 @media (min-width: 769px) {
   .home {
-	background: url(images/desktop.jpg);
+	background: url(desktop.jpg);
 			background-size: cover;
   }
 }
@@ -39,7 +39,7 @@
 
 
 .overons {
- background: url(images/overons.JPG);
+ background: url(overons.JPG);
 			background-size: cover;
 	background-repeat:no-repeat;
 
