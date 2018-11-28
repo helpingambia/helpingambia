@@ -77,6 +77,14 @@ background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
 }
+	.projecten {
+
+ background: url(projecten.jpg);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
+}
 	.contact {
 
  background: url(contact.JPG);
