@@ -12,6 +12,14 @@
  background-size: cover;
  background-repeat:no-repeat;
 }	
+	.contact {
+
+ background: url(contact-mobile.jpeg);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
+}
 }
 
 
@@ -25,6 +33,14 @@ background: url(overons-mobile.jpeg);
 background-size: cover;
 background-repeat:no-repeat;
 }	
+	.contact {
+
+ background: url(contact-mobile.jpeg);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
+}
 }
 
 
@@ -38,6 +54,14 @@ background-repeat:no-repeat;
 background: url(overons-mobile.jpeg);
 background-size: cover;
 background-repeat:no-repeat;
+}
+		.contact {
+
+ background: url(contact-mobile.jpeg);
+			background-size: cover;
+	background-repeat:no-repeat;
+
+
 }
 }
 
@@ -53,11 +77,7 @@ background-size: cover;
 background-size: cover;
 background-repeat:no-repeat;
 }
-}
-
-
-
-.contact {
+	.contact {
 
  background: url(contact.JPG);
 			background-size: cover;
@@ -65,6 +85,11 @@ background-repeat:no-repeat;
 
 
 }
+}
+
+
+
+
 
 
 
