@@ -9,7 +9,7 @@
 			background-size: cover;
   }
 	
-				.overons {
+								.overons {
 
  background: url(overons-mobile.jpeg);
 			background-size: cover;
@@ -28,7 +28,7 @@
 			background-size: cover;
   }
 	
-				.overons {
+								.overons {
 
  background: url(overons-mobile.jpeg);
 			background-size: cover;
@@ -45,6 +45,16 @@
  background: url(mobile.jpg);
 			background-size: cover;
   }
+					.overons {
+
+ background: url(overons-mobile.jpeg);
+			background-size: cover;
+
+	background-repeat:no-repeat;
+
+
+}
+	
 }
 
 
