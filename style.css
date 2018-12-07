@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+a { 
+    color: black;
+}
 
 @media (max-width: 300px) {
   .home {
