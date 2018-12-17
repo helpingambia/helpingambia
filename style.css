@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+  width:100%;
+  height:100%;
+  padding:0;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+width:300px;
+text-align:center;
+display:block;
+margin-right:auto;
+margin-left:auto;
+	
+}
+
+.socials {
+	width:25px;
+	padding:10px;
+	float:right;
+}
+
+
+.topnav {
+  margin-top:20px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+	
+	
+	.logo {
+		width: 80%;
+	}
+
+	
+
+	
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+	
+	.topnav-right {
+	margin-top:-40px;
+	}
+  
+
+}
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #d9e7fc;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+	
+		.logo {
+		width: 50%;
+			
+	}
+	
+	
+	
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+div.container4 {
+   margin-left:auto;
+	margin-right:auto;
+	background: pink;
+	width: 1000px;
+    position: relative }
+div.container4 p {
+    margin: 0;
+	font-size: 25px;
+	 background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+.center {
+width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.missie {
+font-family: playfair display;
+	font-weight:bold;
+	font-size:40px;
+	
+}
+
+h1 {
+	text-align: center;
+}

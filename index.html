@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!-- Top navigation -->
+<div class="topnav">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    <a href="index.html"><img src="logo1.png" class="logo"></a>
+  </div>
+  
+  <!-- Left-aligned links (default) -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+	<a href="index.html">Over ons</a>
+    <a href="index.html">Projecten</a>
+    <a href="index.html">Doneer</a>
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+ 	<a href="https://www.facebook.com/Help-in-Gambia-534643316740595/"><img src="youtube.png" class="socials"></a>
+	<a href="https://www.instagram.com/helpingambia/"><img src="instagram.png" class="socials"></a>
+	<a href="https://www.youtube.com/channel/UCHG4PiDyuOcClNKi12y6qhg"><img src="facebook.png" class="socials"></a>
+  </div>
+  
+</div>
+<br><br><br>
+<div class="your-class">
+	<div><img src="1.jpg" alt="" class="slideshow"/> 
+		<div class="info">
+    	<h1 class="titel">Water is leven</h1>
+		<a href="index.html"><h1 class="subtitel">Lees meer</h1></a>
+		</div>
+	</div>
+    <div><img src="2.jpg" alt="" class="slideshow"/>
+	<div class="info">
+    	<h1 class="titel">Het team</h1>
+		<a href="index.html"><h1 class="subtitel">Onze missie</h1></a>
+		</div>
+	</div>
+    <div><img src="3.jpg" alt="" class="slideshow"/>
+	<div class="info">
+    <h1 class="titel">Steun onze strijd</h1></div>
+	<a href="index.html"><h1 class="subtitel">Doneer</h1></a>
+	</div>
+	</div>
+	
+
+
+	
+	
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.display = "none";
+}
+</script>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+$(document).ready(function(){
+  $('.your-class').slick({
+  autoplay: true,
+  autoplaySpeed: 2000,
+    infinite: true,
+dots: true,
+
+  });
+});
+  </script>	
+
+</body>
+</html>
