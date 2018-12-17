@@ -6,6 +6,7 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+	<body>
 <!-- Top navigation -->
 <div class="topnav">
 
@@ -54,6 +55,30 @@ Bankrekeningnummer: NL18 INGB 0007138605<br>
 
 	</div>
 
-<body>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.display = "none";
+}
+</script>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick.min.js"></script>
+
+  <script type="text/javascript">
+$(document).ready(function(){
+  $('.your-class').slick({
+  autoplay: true,
+  autoplaySpeed: 2000,
+    infinite: true,
+dots: true,
+
+  });
+});
+  </script>	
 </body>
 </html>
