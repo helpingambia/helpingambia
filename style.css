@@ -167,6 +167,10 @@ a.darken:hover span{color:#black; visibility:visible;
 
 
 .footer {
+
+ width: 100%;
+
+	
 	background-color:black;
  text-align:center;
 	
