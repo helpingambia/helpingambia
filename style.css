@@ -96,6 +96,9 @@ margin-left:auto;
 
 }
 
+.project {
+	width: 400px;
+}
 
 .footer {
 	background-color:black;
@@ -123,7 +126,9 @@ margin-left:auto;
 
 
 	
-
+.project {
+	width: 100%;
+}
 	
   .topnav a, .topnav-right {
     float: none;
@@ -193,7 +198,9 @@ margin-left:auto;
 			
 	}
 	
-	
+	.project {
+	width: 100%;
+}
 
   .overlay a {font-size: 20px}
   .overlay .closebtn {
