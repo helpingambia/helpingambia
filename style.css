@@ -99,10 +99,16 @@ margin-left:auto;
 
 .footer {
 	background-color:black;
+ text-align:center;
+	padding: 50px;
 }
 
 
-
+.partners {
+	width: 90%;
+	
+	
+}
 
 
 
@@ -112,7 +118,7 @@ margin-left:auto;
 	
 	
 	.logo {
-		width: 80%;
+		width: 50%;
 	}
 
 	.socials {
@@ -190,7 +196,7 @@ width: 5%;
 	
 	
 	.socials {
-width: 3%;
+width: 5%;
 }
 
 	
