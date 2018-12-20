@@ -9,6 +9,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a { 
+    color: black;
+	text-decoration:none;
+}
+
 .logo {
 width:300px;
 text-align:center;
@@ -100,10 +105,71 @@ margin-left:auto;
 	width: 400px;
 }
 
+
+
+a.darken {
+	color:black !important;
+    display: inline-block;
+    background: transparent;
+    padding: 0;
+    position:relative;
+	
+}
+
+a.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+a.darken:hover img {
+	
+    opacity: 0.1;           
+}
+a.darken span{
+	font-color:black !important;
+    visibility:hidden; 
+    
+	font-family: futura-pt, sans-serif;
+ 	text-align:center;
+ 	padding:50px 50px 0px 50px;
+ 	letter-spacing:2px;
+	
+	
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      line-height: 100%;
+}
+
+a.darken:hover span{color:#black; visibility:visible;
+	
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+
+
+
+
+
+
+
+
+
 .footer {
 	background-color:black;
  text-align:center;
-	padding: 50px;
+	
 }
 
 
