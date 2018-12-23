@@ -1,9 +1,39 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 * {
   box-sizing: border-box;
+}
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  width: 100%; 
+  display: grid;
+  /* Define Auto Row size */
+ 
+  /*Define our columns */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  grid-gap: 1em;
+}
+
+
+.project {
+	width:100%;
+}
+
+article {
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+article:nth-child(odd) {
+
+}
+
+article:nth-child(even) {
+
 }
 
 
@@ -20,110 +50,25 @@ a {
 	text-decoration:none;
 }
 
-
-main {
-  max-width: 1230px;
-  margin: 30px auto;
-  padding: 0 20px;
-  width: 100%; 
-  display: grid;
-  /* Define Auto Row size */
- 
-  /*Define our columns */
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-  
-}
-
-
-.project {
-	width:100%;
-}
-
-article {
-  
-  padding: 5px;
-
-}
-
-a.darken {
-	color:black !important;
-    display: inline-block;
-    background: transparent;
-    padding: 0;
-    position:relative;
-	
-}
-
-
-a.darken img {
-    display: block;
-    
-    -webkit-transition: all 0.2s linear;
-       -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-         -o-transition: all 0.2s linear;
-            transition: all 0.2s linear;
-}
-
-a.darken:hover img {
-	
-    opacity: 0.1;           
-}
-a.darken span{
-	font-color:black !important;
-    visibility:hidden; 
-    
-	font-family: futura-pt, sans-serif;
- 	text-align:center;
- 	padding:50px 50px 0px 50px;
- 	letter-spacing:2px;
-	
-	
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      line-height: 100%;
-}
-
-a.darken:hover span{color:#black; visibility:visible;
-	
-    -webkit-transition: all 0.2s linear;
-       -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-         -o-transition: all 0.2s linear;
-            transition: all 0.2s linear;
-}
-
 .mobile {
 	display:none !important;
 }
 
 
 
-.mobiletitle {
-	display:none!important;
-}
-
-
-
-
 
 .logo {
-width:300px;
-
+width:200px;
 text-align:center;
 display:block;
 margin-right:auto;
 margin-left:auto;
-	margin-top: 5px;
 	
 }
 
 .socials {
-	width:30px;
-padding: 0px 5px 0px 5px;
+	width:25px;
+	padding:10px;
 	float:right;
 }
 
@@ -185,6 +130,92 @@ padding: 0px 5px 0px 5px;
 
 
 
+
+#projecten{
+    text-align:center;
+    margin:50px auto;
+
+}
+#projecten a{
+	font-family: futura-pt, sans-serif;
+    
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+	padding:10px;
+
+}
+
+
+
+
+
+
+
+a.darken {
+	color:black !important;
+    display: inline-block;
+    background: transparent;
+    padding: 0;
+    position:relative;
+	
+}
+
+a.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+a.darken:hover img {
+	
+    opacity: 0.1;           
+}
+a.darken span{
+	font-color:black !important;
+    visibility:hidden; 
+    
+	font-family: futura-pt, sans-serif;
+ 	text-align:center;
+ 	padding:50px 50px 0px 50px;
+ 	letter-spacing:2px;
+	
+	
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      line-height: 100%;
+}
+
+a.darken:hover span{color:#black; visibility:visible;
+	
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .partners {
 	width: 10px;
 	
@@ -242,7 +273,9 @@ padding: 0px 5px 0px 5px;
 
 
 	
-
+.column {
+    width: 100%;
+  }
 	
 	
 	.topnav {
@@ -262,7 +295,7 @@ padding: 0px 5px 0px 5px;
   }
 	
 	.topnav-right {
-	margin-top:-34px;
+	margin-top:-40px;
 	}
   
 
@@ -310,16 +343,7 @@ padding: 0px 5px 0px 5px;
 
 
 
-.mobiletitle {
-	display:block!important;
-	text-align: center;
-	font-family: futura-pt, sans-serif;
-font-style: normal;
-font-weight: 300;
-	font-color: grey;
-    font-size:12px;
-	letter-spacing:1px;
-}
+
 
 
 
@@ -331,7 +355,9 @@ font-weight: 300;
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-
+.column {
+    width: 50%;
+  }
 	
   
 }
