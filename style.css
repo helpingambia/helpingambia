@@ -196,36 +196,38 @@ padding: 0px 5px 0px 5px;
 
 
 
-.wrapper { 
-  overflow:hidden;
-	background-color:black;
-}
-
-.wrapper div {
- 
-   padding: 10px;
-}
-#one {
-	
-	 padding: 40px 0px 0px 20px;
-	color:white;
-  background-color: black;
-  float:left; 
-
-}
-#two { 
-  background-color: black;
-  overflow:hidden;
-text-align:right;
-
-
- 
-}
-
 
 .sponsor {
 		width:10%;
 	}
+
+
+.wrap {
+  display: flex;
+}
+
+.one {
+	color:white;
+  width: 30%;
+	padding:30px 0px 0px 20px;
+
+	background-color:black;
+}
+
+.two {
+  width: 70%;
+	text-align:right;
+	padding:10px;
+
+	background-color:black;
+}
+
+
+
+
+
+
+
 
 
 /* Responsive navigation menu (for mobile devices) */
@@ -281,29 +283,35 @@ text-align:right;
 	
 	
 	
-	#one { 
- text-align:center;
-    margin-left:auto;
-		margin-right:auto;
-    width:100%;
-    border:0;
-    
-	}
 	
-	#two {
-		 text-align:center;
-    margin-left:auto;
-		margin-right:auto;
-    width:100%;
-    border:0;
-    
-	}
-	
+	  .wrap {
+    flex-direction: column-reverse;
+  }
+  .one,
+  .two {
+    width: auto;
+	  text-align:center;
+  }
 	
 	.sponsor {
-		width:20%;
+		width:50%;
 	}
 
+	
+	.div2 {
+    text-align:center;
+	width:100%;
+}
+.div1 {
+    text-align:center;
+	width:100%;
+	
+}
+	.wrapper p {
+  text-align:center;
+	width:100%;
+}
+	
 	
 	.topnav {
   margin-top:20px;
@@ -383,29 +391,26 @@ text-align:right;
 	
 }
 	
-		#one { 
- text-align:center;
-    margin-left:auto;
-		margin-right:auto;
-    width:100%;
-    border:0;
-    
-	}
 	
-	#two {
-		 text-align:center;
-    margin-left:auto;
-		margin-right:auto;
-    width:100%;
-    border:0;
-    
-	}
 	
+	  .wrap {
+    flex-direction: column-reverse;
+  }
+  .one,
+  .two {
+    width: auto;
+	  text-align:center;
+  }
+	
+	
+	.one {
+		padding:0px 0px 30px 20px;
+	}
 	
 	.sponsor {
-		width:20%;
+		width:25%;
 	}
-	
+
 	
 }
 
