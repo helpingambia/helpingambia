@@ -178,7 +178,7 @@ color: white;
   height: 100%;
   top: 0;
   left: 0;
-  line-height: 500px;
+  line-height: 250px;
 		
   text-align: center;
   z-index: 10;
@@ -197,7 +197,7 @@ font-size: 25px;
   height: 100%;
   top: 0;
   left: 0;
-  line-height: 850px;
+  line-height: 350px;
   text-align: center;
   z-index: 10;
 }
