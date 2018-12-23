@@ -200,7 +200,7 @@ a.darken:hover span{color:#black; visibility:visible;
 	
 	
 	.logo {
-		width: 50%;
+		width: 75%;
 	}
 
 
@@ -281,25 +281,6 @@ a.darken:hover span{color:#black; visibility:visible;
 
 
 
-
-@media screen and (max-height: 450px) {
-	
-		.logo {
-		width: 50%;
-			
-	}
-	
-	.project {
-	width: 100%;
-}
-
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
 
 
 
