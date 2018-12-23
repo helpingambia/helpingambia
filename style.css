@@ -31,7 +31,7 @@ a {
 
 
 main {
-  max-width: auto;
+  max-width: 1200px;
   margin: 30px auto;
   padding: 0 20px;
   width: 100%; 
@@ -191,30 +191,31 @@ padding: 0px 5px 0px 5px;
 }
 
 
-.partners {
-	width: 10px;
-	
-	
-}
-
 
 
 .footer {
-
- width: 100%;
-
-	
-	background-color:black;
- 
+	width:100%;
+	background-color:pink;
 	
 }
 
+.sponsor {
+	width:10%;
+	float:right;
+
+}
+
+.sponsorr {
+	width:6%;
+	float:right;
+
+}
 
 
 .rights {
 	font-family: futura-pt, sans-serif;
 	float:left;
-	color: white;
+	
 }
 
 
@@ -276,8 +277,8 @@ padding: 0px 5px 0px 5px;
   }
 	
 	.topnav-right {
-	
-	}
+		margin-top:-34px;
+		}
   
 
 }
