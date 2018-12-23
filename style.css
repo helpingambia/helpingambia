@@ -17,18 +17,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .mobiletitle {
 	display:none !important;
 }
+
 a { 
     color: black;
 	text-decoration:none;
 }
 
 
+
+
+
 main {
-  max-width: 1230px;
+  max-width: auto;
   margin: 30px auto;
   padding: 0 20px;
   width: 100%; 
@@ -322,7 +325,20 @@ padding: 0px 5px 0px 5px;
 
 
 
-
+@media screen and (max-width: 940px) {
+	
+	
+	.mobiletitle {
+	display:block!important;
+	text-align: center;
+	font-family: futura-pt, sans-serif;
+	font-color: black;
+	letter-spacing:1px;
+	
+}
+	
+	
+}
 
 
 
