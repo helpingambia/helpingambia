@@ -31,7 +31,7 @@ a {
 
 
 main {
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 30px auto;
   padding: 0 20px;
   width: 100%; 
@@ -193,30 +193,31 @@ padding: 0px 5px 0px 5px;
 
 
 
-.footer {
-	width:100%;
-	background-color:pink;
-	
-}
+ .footer {
+ 
 
-.sponsor {
+  display: inline-block;
+  background-color: black;
+
+ 	
+ }
+
+.footer img {
 	width:10%;
 	float:right;
+	padding:20px 30px 20px 0px;
 
 }
 
-.sponsorr {
-	width:6%;
-	float:right;
-
-}
-
-
-.rights {
-	font-family: futura-pt, sans-serif;
+.footer p {
 	float:left;
-	
+	padding:20px 0px 20px 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+
 }
+
+
 
 
 
