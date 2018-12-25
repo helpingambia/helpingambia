@@ -138,7 +138,7 @@ margin-left:auto;
 	opacity:0.7;
 }
 
-.text a {
+.textt a {
 	text-decoration:underline;
 }
 
@@ -192,7 +192,21 @@ padding: 0px 5px 0px 5px;
 	text-transform: uppercase;
 }
 
+.titlee {
+	font-family: futura-pt, sans-serif;
+ 	text-align:center;
+	padding:50px 0px 0px 0px;
+ 	letter-spacing:2px;
+	text-transform: uppercase;
+}
+
 	.text {
+	font-family: futura-pt, sans-serif;
+ 	padding:50px;
+ 		line-height:30px;
+}
+
+	.textt {
 	font-family: futura-pt, sans-serif;
  	padding:50px;
  		line-height:30px;
