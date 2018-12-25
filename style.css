@@ -8,6 +8,8 @@
 }
 
 
+
+
 body {
   width:100%;
   height:100%;
@@ -128,11 +130,30 @@ margin-left:auto;
 	
 }
 
+.logo:hover {
+	opacity:0.7;
+}
+
+.title:hover{
+	opacity:0.7;
+}
+
+.text a {
+	text-decoration:underline;
+}
+
 .socials {
 	width:30px;
 padding: 0px 5px 0px 5px;
 	float:right;
+	
 }
+
+
+
+
+
+
 
 
 .topnav {
@@ -143,7 +164,9 @@ padding: 0px 5px 0px 5px;
   overflow: hidden;
 }
 
-
+.topnav:hover{
+	opacity:0.7;
+}
 
 .topnav a.active {
   background-color: #4CAF50;
