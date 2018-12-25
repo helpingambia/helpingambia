@@ -15,7 +15,7 @@ body {
   height:100%;
   padding:0;
   margin: 0px;
-background-color:white;
+
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -164,9 +164,7 @@ padding: 0px 5px 0px 5px;
   overflow: hidden;
 }
 
-.topnav:hover{
-	opacity:0.7;
-}
+
 
 .topnav a.active {
   background-color: #4CAF50;
