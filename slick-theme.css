@@ -115,6 +115,8 @@
     content: '←';
 }
 
+
+
 /* Dots */
 .slick-dotted.slick-slider
 {
@@ -124,7 +126,7 @@
 .slick-dots
 {
     position: absolute;
-bottom:100px;
+bottom:10px;
 
     display: block;
 
@@ -136,6 +138,7 @@ bottom:100px;
 
     text-align: center;
 }
+
 .slick-dots li
 {
     position: relative;
