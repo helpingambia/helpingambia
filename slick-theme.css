@@ -1,4 +1,13 @@
 @charset 'UTF-8';
+
+
+
+
+
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
 /* Slider */
 .slick-loading .slick-list
 {
@@ -122,7 +131,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: 75px;
+    bottom: 50px;
 
     display: block;
 
@@ -178,15 +187,15 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 60px;
+    font-size: 30px;
     line-height: 20px;
 
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 
     content: '•';
 	
@@ -196,9 +205,10 @@
 	
   border-radius: 50%;
 
-    background-color: Transparent;
+   
+	
  
-    border:  2px solid white;
+    border:  2px solid white!important;
     
    
     padding:  0px!important;
@@ -211,28 +221,26 @@
 
 
 
-.slick-dots:focus {
-    color: grey;
-}
+
 
 
 
 .slick-dots li.slick-active button:before
 {
 	    font-family: 'slick';
-    font-size: 60px;
+    font-size: 30px;
     line-height: 20px;
 
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 
     content: '•';
 	
-	color:transparent;
+
 	
 	
 	
@@ -248,3 +256,7 @@
     opacity: 1;
     color: white;
 }
+
+}
+
+
