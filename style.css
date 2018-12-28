@@ -19,9 +19,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.mobiletitle {
-	display:none !important;
-}
+
 
 a { 
     color: black;
@@ -29,7 +27,7 @@ a {
 }
 
 
-
+	
 
 
 main {
@@ -78,7 +76,7 @@ a.darken img {
 
 a.darken:hover img {
 	
-    opacity: 0.1;           
+    opacity: 0.8;           
 }
 a.darken span{
 	font-color:black;
@@ -158,7 +156,10 @@ font-size:24px;
 }
 
 
-
+ .topnav  {
+	    float: none;
+	    display: block;
+	  }
 
 
 
@@ -174,8 +175,6 @@ font-size:24px;
   position: relative;
   overflow: hidden;
 }
-
-
 
 .topnav a.active {
   background-color: #4CAF50;
@@ -194,13 +193,29 @@ font-size:24px;
 
 
 
+
+
+
+
+
+
 .title {
 	font-family: futura-pt, sans-serif;
  	text-align:center;
  	padding:50px 50px 0px 50px;
- 	letter-spacing:2px;
-	text-transform: uppercase;
+ 	letter-spacing:1px;
+	
 }
+
+.mobiletitle {
+			font-family: futura-pt, sans-serif;
+ 	text-align:center;
+ 	letter-spacing:1px;
+	}
+
+.mobiletitle:hover {
+		color:#d9e7fc;
+	}
 
 .titlee {
 	font-family: futura-pt, sans-serif;
