@@ -261,8 +261,8 @@ font-size:24px;
 .icon1,
 .icon2,
 .icon3{
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
   
 	
 }
@@ -352,6 +352,51 @@ font-family: futura-pt, sans-serif;
 /* Responsive navigation menu (for mobile devices) */
 @media screen and (max-width: 600px) {
 
+	
+
+	
+	.squares {
+  display: flex;
+  justify-content: center;
+	padding:100px;
+}
+.icon1,
+.icon2,
+.icon3{
+    width: 75px;
+    height: 75px;
+  
+	
+}
+
+
+ .icon1,
+.icon2,
+.icon3{
+	
+            border: 1px black solid;
+	
+	margin-left:10px;
+	margin-right:10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+	
+}
+
+
+.social-overons {
+	width:20%;
+
+}
+
+.social-overons:hover {
+	opacity:0.5;
+}
+
+	
+
+	
 	
 .mobiletitle {
 	display:block!important;
