@@ -237,6 +237,67 @@ font-size:24px;
  		line-height:30px;
 }
 
+.overons1 {
+	font-family: futura-pt, sans-serif;
+ 	text-align:center;
+	padding:50px 0px 0px 0px;
+ 	letter-spacing:1px;
+}
+
+.overons2 {
+		font-family: futura-pt, sans-serif;
+ 	padding:50px;
+ 		line-height:30px;
+	text-align:center;
+}
+
+
+
+.squares {
+  display: flex;
+  justify-content: center;
+	padding:100px;
+}
+.icon1,
+.icon2,
+.icon3{
+    width: 150px;
+    height: 150px;
+  
+	
+}
+
+
+ .icon1,
+.icon2,
+.icon3{
+	
+            border: 1px black solid;
+	
+	margin-left:10px;
+	margin-right:10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+	
+}
+
+
+
+.social-overons {
+	width:20%;
+
+}
+
+.social-overons:hover {
+	opacity:0.5;
+}
+
+
+
+
+
+
 .image {
 	width:90%;
 
@@ -250,9 +311,6 @@ font-size:24px;
 		text-align: center;
 	
 }
-
-
-
 
 
 
@@ -440,6 +498,18 @@ font-size:14px;
     right: 45px;
     font-size: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
