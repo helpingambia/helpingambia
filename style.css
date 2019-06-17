@@ -306,11 +306,7 @@ font-size:24px;
 
 }
 
-.doneer {
-	background-color:white;
-		text-align: center;
-	
-}
+
 
 
 
@@ -342,11 +338,52 @@ font-family: futura-pt, sans-serif;
 }
 
 
+.doneer {
+	text-align:center;
+	background-color:white;
+	padding:100px;	
+}
 
 
+.donate {
+	display:block;
+	margin:0 auto;
+}
 
+.button {
+  letter-spacing: 0.5px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+	font-family: futura-pt, sans-serif;
+}
 
+.button:hover {
+	  background-color: red;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
 
+.donation {
+	text-align:center;
+	font-family: futura-pt, sans-serif;
+}
+
+.waterwell {
+	width: 20%;
+}
 
 
 /* Responsive navigation menu (for mobile devices) */
